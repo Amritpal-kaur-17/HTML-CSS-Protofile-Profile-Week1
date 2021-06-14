@@ -1,0 +1,138 @@
+
+body {
+    background-color:navy;
+    color:white;
+}
+
+.Name{
+    font-size:45px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.Photo{
+    float: left;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-top: 20px;
+    width: 30%;
+    }
+
+.Photo img {
+    border-radius: 50%;
+    }
+
+p {
+    margin-top: 5px;
+    margin-bottom: 5px; 
+    font-size: 17px;
+}
+
+.line{
+    width:59%;
+    text-align:left;
+    margin-left:1px;
+    height:2px;
+    color: grey;
+}
+
+.About-Self {
+    width: 90%;
+    margin-left: 40px;
+}
+
+.Expertise, td {
+    font-size: 20px;
+    padding: 10px;
+}
+
+.Education{
+    font-size: 30px;
+    padding: 10px;
+}   
+
+.Experts{
+    padding: 10px;
+    margin-left: 5px;
+    color:#CE0000;
+}
+
+.project-photo{
+    margin-left:150px;
+}
+
+.project-photo h3 {
+    color:black;
+}
+
+.project-division{
+    background-color: whitesmoke ;
+    width:96%;
+    margin-left:2%;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.footer-style{
+    width:100%;
+    background-color: whitesmoke;
+}
+
+#contact-email {
+    height: 120px;
+    width: 120px;
+    background-color: #ffe41e;
+    border-radius: 50%;
+    /*display: inline-block;*/
+    /*position: fixed;*/
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+#contact-email p{
+    text-align: center;
+}
+
+#contact-github {
+    height: 120px;
+    width: 120px;
+    background-color: #1eee11;
+    border-radius: 50%;
+    /*display: inline-block;*/
+    /*position: fixed;*/
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+#contact-github p{
+    text-align: center;
+}
+
+#contact-linkdin {
+    height: 120px;
+    width: 120px;
+    background-color: #F95700FF;
+    border-radius: 50%;
+    /*display: inline-block;*/
+    /*position: fixed;*/
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+#contact-linkdin p{
+    text-align: center;
+}
+
+.A{
+    display: inline-block;
+}
+
+
